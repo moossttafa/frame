@@ -1,0 +1,306 @@
+*{
+   box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+/*Start FrameWork*/
+.upper{
+    text-transform: uppercase;
+
+}
+
+.table{
+    height: 100%;
+    display: table;
+}
+.table-row{
+    display: table-row;
+}
+.main-color{
+   color: #809ad4;
+}
+.background-color{
+   color: #809ad4;
+}
+.hr{
+    width: 50px;
+    margin: auto;
+}
+.overlay{
+    background-color: rgba(0,0,0,.2);
+    width: 100%;
+    height: 100%;
+}
+/*End FrameWork */
+header{
+    background-image: url(../img/bg4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-width: 100%;
+    position: relative;
+    height: 600px;
+    margin-bottom: 30px;
+}
+.navbar-light{padding-top: 20px}
+.navbar-light,
+.navbar h3,
+.navbar .navbar-nav .active .nav-link,
+.navbar .navbar-nav .nav-link
+{
+    color: #FFF;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #0069d9;
+}
+.navbar .navbar-nav .nav-item{
+    padding-left: 10px;
+}
+.info h3{
+    color: #FFF;
+    padding-bottom: 10px;
+    line-height: 1.6em;
+    font-weight: 400;
+    font-size: 28px;
+
+}
+.info button{
+    padding: 10px;
+    margin: 10px;
+
+}
+.info button:hover:first-of-type{
+    background-color: #8484f5;
+    border: 1px solid #8484f5;
+}
+/*Start Section*/
+.about{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.about .row i{
+    color: #809ad4;
+}
+.about .row .style{}
+.about .row h1{
+    color: #809ad4;
+    font-size: 30px;
+    font-family: -webkit-body;
+    padding-top: 20px;
+
+}
+.about .row p{
+    color: #b1abab;
+    padding-top: 12px;
+    line-height: 1.6em;
+}
+.about .row a{
+    padding-top: 20px;
+    text-decoration: none;
+}
+.about .row i{
+    padding-left: 10px;
+}
+/*End Section*/
+/*Start Features*/
+.features{
+    margin-top: 40px;
+    background-color: #f6f6ff;
+    padding: 50px 0px;
+}
+.features h2{
+    margin-bottom: 20px;
+}
+
+.features h3{
+   font-weight: 400;
+
+}
+.features p{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    line-height: 2em;
+
+}
+.features .row{
+   padding-bottom: 100px;
+}
+.features .row  img{
+    width: 550px;
+    height: 400px;
+}
+.features .control{
+    text-align: initial;
+    padding-left: 26px;
+}
+
+.features .control span{
+   display: block;
+   line-height: 3em;
+}
+.features .control i{
+    padding-right: 12px;
+}
+/*End Features*/
+/*Start Bessnes*/
+.Business{
+  margin: 30px 0px;
+  padding: 50px 0px;
+}
+.Business h2{
+  line-height: 1.5em;
+}
+.Business p{
+  margin-bottom: 60px;
+}
+.Business .hr{margin-bottom: 30px;}
+.card span{
+  margin-bottom: 18px;
+  padding-top: 35px;
+}
+.card h3{
+  margin-bottom: 30px;
+  font-size: 60px;
+  font-weight: 400;
+  color: #007bff;
+}
+.Business .card-deck .card:nth-of-type(2){
+  box-shadow: 0px 2px 6px 1px #d4c9c9;
+}
+.list{margin: auto;}
+.list span{
+  display: block;
+  padding: 0px;
+}
+.list span i{
+    margin-right: 10px;
+}
+.card button{
+  padding: 10px;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+/*End Bessnes*/
+/*Start Event*/
+.Event{
+  padding: 40px 0px;
+   background-color: #f6f6ff;
+}
+.Event h2{
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: 400;
+}
+.Event p{
+  margin: 30px 0px;
+  line-height: 1.8em;
+  font-size: 22px;
+  color: #9e9a9a;
+  font-weight: 600;
+}
+.Event .card img{
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+.Event .card i{
+    color: #f6b800;
+}
+.Event .card-deck{
+    padding: 30px 0px;
+}
+
+/*End Event*/
+
+/*Start powerfull*/
+.powerfull{
+    padding: 30px 0px;
+}
+.powerfull h1{
+    font-size: 45px;
+}
+.powerfull p{
+  margin: 30px 0px;
+  line-height: 1.8em;
+  font-size: 20px;
+  color: #9e9a9a;
+}
+.powerfull button{
+   margin-top: 30px;
+    margin-bottom: 60px;
+}
+.powerfull img{
+    width: 600px;
+    height: 550px;
+    margin: 60px 0px;
+    
+}
+/*End powerfull*/
+/*Start over-members*/
+
+.over-members
+{
+    padding: 30px 0px;
+    background-color: #1a57a5;
+    color: #dcd9d9;
+}
+.over-members p{
+  margin: 30px 0px;
+  line-height: 1.8em;
+  font-size: 20px;
+}
+
+/*End over-members*/
+
+/*Start contact*/
+.contact{
+    padding: 50px 20px;
+    background-color: #d6e6f2;
+}
+
+
+.contact form{
+    background: #FFF;
+    padding: 10px 29px 40px 68px;
+
+}
+.contact form button{width: 120px;}
+.contact form input{
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;  
+    margin-bottom: 20px;
+}
+.contact form textarea{
+    width: 400px;
+    height: 150px;
+    padding: 10px;  
+    margin-bottom: 20px;
+}
+.contact  .info{
+    padding-left: 100px;
+}
+/*End contact*/
+/*Start footer*/
+footer{
+    height: 100px;
+    background-color: #1a57a5;
+}
+footer i{
+    color: #FFF;
+    padding-left: 15px;
+    padding-top: 15px;
+    color: #d6e6f2;
+}
+footer p{
+    color: #FFF;
+    padding-top: 20px
+}
